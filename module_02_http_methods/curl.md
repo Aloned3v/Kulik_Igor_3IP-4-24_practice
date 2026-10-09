@@ -2,8 +2,8 @@
 **Команда 1 (POST /posts):**
 
 ```
-curl -i -X POST https://jsonplaceholder.typicode.com/posts \
--H "Content-Type: application/json" \
+curl -i -X POST https://jsonplaceholder.typicode.com/posts 
+-H "Content-Type: application/json" 
 -d '{"title": "Мой пост", "body": "Текст", "userId": 1}'
 
 ```
@@ -30,8 +30,8 @@ x-powered-by: Express
 **Команда 2 (PATCH /users/1):**
 
 ```
-curl -i -X PATCH https://jsonplaceholder.typicode.com/users/1 \
--H "Content-Type: application/json" \
+curl -i -X PATCH https://jsonplaceholder.typicode.com/users/1 
+-H "Content-Type: application/json" 
 -d '{"name": "Ada"}'
 
 ```
@@ -59,8 +59,8 @@ x-powered-by: Express
 **Команда 1 (POST /posts):**
 
 ```
-curl -i -X POST https://jsonplaceholder.typicode.com/posts \
--H "Content-Type: application/json" \
+curl -i -X POST https://jsonplaceholder.typicode.com/posts 
+-H "Content-Type: application/json" 
 -d '{"title": "Мой пост", "body": "Текст", "userId": 1}'
 
 ```
