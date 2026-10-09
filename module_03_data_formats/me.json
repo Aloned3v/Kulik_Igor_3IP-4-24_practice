@@ -1,1 +1,17 @@
-
+{
+  "name": "Петя",
+  "age": 19,
+  "isStudent": true,
+  "email": null,
+  "address": {
+    "city": "Москва",
+    "zip": "111111"
+  },
+  "hobbies": [
+    "программирование",
+    "спорт",
+    "чтение"
+  ],
+  "radnomNumber": 12.1,
+  "experience": 1
+}
